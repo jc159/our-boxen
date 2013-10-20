@@ -80,7 +80,10 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      
+      # this added by jc159
+      'stow'
     ]:
   }
 
