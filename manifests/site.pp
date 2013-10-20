@@ -98,6 +98,8 @@ node default {
     
   include appcleaner
 
+  # this is based on patterns I saw in 
+  # https://github.com/grahamgilbert/my-boxen/blob/master/modules/people/manifests/grahamgilbert/applications.pp
   package { 'Emacs':
         source   => 'http://emacsformacosx.com/emacs-builds/Emacs-24.3-universal-10.6.8.dmg',
         provider => appdmg,
