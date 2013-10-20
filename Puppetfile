@@ -39,3 +39,8 @@ github "xquartz",    "1.1.0"
 
 github "appcleaner", "1.0.0"
 github "osx",        "1.6.0"
+github "evernote",   "2.0.4"
+github "crashplan",  "1.0.1"
+github "dropbox",    "1.1.1"
+github "launchbar",  "1.0.1"
+
