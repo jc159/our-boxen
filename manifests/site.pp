@@ -98,8 +98,8 @@ node default {
     
   include appcleaner
 
-#  package { 'Emacs':
-#        source   => 'http://www.shirt-pocket.com/mint/pepper/orderedlist/downloads/download.php?file=http%3A//www.shirt-pocket.com/downloads/SuperDuper%21.dmg',
-#        provider => appdmg_eula,
-#    }
+  package { 'Emacs':
+        source   => 'http://emacsformacosx.com/emacs-builds/Emacs-24.3-universal-10.6.8.dmg',
+        provider => appdmg,
+    }
 }
