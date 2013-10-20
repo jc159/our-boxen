@@ -102,4 +102,10 @@ node default {
         source   => 'http://emacsformacosx.com/emacs-builds/Emacs-24.3-universal-10.6.8.dmg',
         provider => appdmg,
     }
+   
+  include osx::global::natural_mouse_scrolling
+  class { 'osx::global::natural_mouse_scrolling':
+    enabled => false
+  }
+    
 }
