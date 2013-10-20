@@ -106,5 +106,9 @@ node default {
   class { 'osx::global::natural_mouse_scrolling':
     enabled => false
   }
-    
+
+  include evernote
+  include crashplan
+  include dropbox
+  include launchbar
 }
