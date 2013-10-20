@@ -103,7 +103,6 @@ node default {
         provider => appdmg,
     }
    
-  include osx::global::natural_mouse_scrolling
   class { 'osx::global::natural_mouse_scrolling':
     enabled => false
   }
