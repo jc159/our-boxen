@@ -88,4 +88,7 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+  
+  # custom additions jc159
+  include emacs
 }
