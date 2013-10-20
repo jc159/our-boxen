@@ -38,3 +38,4 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "appcleaner", "1.0.0"
+github "osx",        "1.6.0"
