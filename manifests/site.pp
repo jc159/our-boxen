@@ -112,4 +112,10 @@ node default {
   include dropbox
   include launchbar
   include java
+  
+  package { 'BasicTeX':
+    provider => 'pkgdmg',
+    source => 'http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg',
+  }
+  
 }
