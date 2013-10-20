@@ -90,5 +90,9 @@ node default {
   }
   
   # custom additions jc159
-  include emacs
+  
+  package { 'SuperDuper!':
+        source   => 'http://www.shirt-pocket.com/mint/pepper/orderedlist/downloads/download.php?file=http%3A//www.shirt-pocket.com/downloads/SuperDuper%21.dmg',
+        provider => appdmg_eula,
+    }
 }
