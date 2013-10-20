@@ -111,4 +111,5 @@ node default {
   include crashplan
   include dropbox
   include launchbar
+  include java
 }
