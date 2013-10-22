@@ -123,4 +123,11 @@ node default {
     source => 'http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg',
   }
   
+  package { 'BibDesk':
+    provider => 'appdmg',
+    source => 'http://softlayer-dal.dl.sourceforge.net/project/bibdesk/BibDesk/BibDesk-1.6.1/BibDesk-1.6.1.dmg',
+  }
+
+
+  
 }
