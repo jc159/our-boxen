@@ -132,4 +132,6 @@ node default {
     provider => 'appdmg',
     source => 'http://ankisrs.net/download/mirror/anki-2.0.14.dmg',
   }
+  
+  include skype
 }
