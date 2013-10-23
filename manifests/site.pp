@@ -128,6 +128,8 @@ node default {
     source => 'http://softlayer-dal.dl.sourceforge.net/project/bibdesk/BibDesk/BibDesk-1.6.1/BibDesk-1.6.1.dmg',
   }
 
-
-  
+  package { 'Anki':
+    provider => 'appdmg',
+    source => 'http://ankisrs.net/download/mirror/anki-2.0.14.dmg',
+  }
 }
