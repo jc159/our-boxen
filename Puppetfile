@@ -44,4 +44,5 @@ github "crashplan",  "1.0.1"
 github "dropbox",    "1.1.1"
 github "launchbar",  "1.0.1"
 github "java",       "1.1.2"
+github "skype",      "1.0.6"
 
