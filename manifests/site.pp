@@ -133,10 +133,10 @@ node default {
     source => 'http://ankisrs.net/download/mirror/anki-2.0.14.dmg',
   }
 
-  package { 'Dropbox':
-    provider => 'appdmg',
-    source => 'http://www.dropbox.com/download?plat=mac',
-  }
+ # package { 'Dropbox':
+#    provider => 'appdmg',
+ #   source => 'http://www.dropbox.com/download?plat=mac',
+#  }
   
   include skype
 }
