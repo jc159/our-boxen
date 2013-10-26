@@ -113,7 +113,7 @@ node default {
   }
 
   include evernote
-  include crashplan
+  #include crashplan
   #include dropbox
   include launchbar
   include java
